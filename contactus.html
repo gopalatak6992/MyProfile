@@ -1,5 +1,51 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Contact us</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab&display=swap" rel="stylesheet">
+<style>
+  *{
+    font-family: 'Roboto Slab', serif;
+  }
+  label{
+    color: cadetblue;
+    font-size: x-large;
+      }
+      input{
+      width: 400px;
+      height: 25px;
+      border-radius: 10px;
+      border: 1px solid burlywood;  
+      color: cadetblue;
+      
+      }
+      input [type="text"]{
+        text-transform: capitalize;
+      }
+      input [type="email"]{
+        color: chocolate;
+      }
+      #submit:hover{
+
+         background-color: burlywood; 
+         width: 60px;
+         height: 40px;
+      }
+
+       button[type="reset"]:hover{
+
+           color: brown;
+           width: 60px;
+           height: 40px;
+
+      }
+      h2{
+        background-color: orangered;
+      }
+</style>
+  </head>
   <body>
     <form>
     <h2>Contact Us</h2>
@@ -15,14 +61,14 @@
         </tr>
          <tr>
           <td><label for="Email">Email:</label></td>
-         <td><input type="text" placeholder="Ex.abc@gmail.com"></td> 
+         <td><input type="Email" placeholder="Ex.abc@gmail.com"></td> 
         </tr>
         <tr>
             <td><label for="Enquiry">Enquiry:</label></td>
             <td><textarea rows="6" cols="30"></textarea></td>
         </tr>
         <tr>
-            <td><button type="Submit">Submit</button></td>
+            <td><button type="Submit" id="submit">Submit</button></td>
             <td><button type="reset">Clear</button></td>
         </tr>
         </tbody>
