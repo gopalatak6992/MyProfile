@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+           body{
+                            background-color : #f2f2f2;
+                            padding-top:50px;
+                            padding-left:50px;
+                            padding-bottom:50px;
+                            padding-right:50px;
+                            padding:30px, 50px;
+                            margin-right:80px;
+                            margin-left:40px;
+
+           }
+        *{
+            color: cadetblue;
+            font-size:x-large;
+            font-family: 'Itim', cursive;
+            
+        }    
+        input [type="number"]{
+            border-radius: 50px;
+            border-style: ridge;
+        }
+        button{
+                            margin:10px;
+                            background-color:rgb(73, 202,34);
+                            border-style: solid;
+        }
+        #submit:hover{
+            background-color: burlywood;
+            border-radius: 20px;
+            border-style:outset;
+            
+        }
+    </style>
+</html>
+<head>
+    <body>
+        <form>
+        <h2><strong>Discount Calculator</strong></h2>
+        <p><strong>Enter the Bill amount and discount in percentage</strong></p>
+        <label for="Bill Amount"><strong>Bill Amount</strong></label>&nbsp;&nbsp;
+        <input type="number" name="Bill Amount" id="Bill Amount" maxlength="20"><br><br>
+        <label for="Discount Percentage"><strong>Discount Percentage</strong></label>
+        <input type="number" name="Discount Percentage" id="Discount Percentage"><br><br>
+        <button type="Calculate" id="submit">Calculate</button><br><br>
+        <lable>Total Discount Amount &NonBreakingSpace;==</lable>
+
+
+    </form>
+    </body>
+
+</head>
